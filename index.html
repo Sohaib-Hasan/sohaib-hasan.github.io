@@ -1,18 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Sohaib Hasan - Mathematics & Statistics Expert | Data Analyst. Professional portfolio showcasing skills, projects, and experience." />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sohaib Hasan - Mathematics & Statistics Expert | Data Analyst. Professional portfolio showcasing skills, projects, and experience.">
     <title>Sohaib Hasan | Portfolio</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="additional.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Sohaib Hasan</a>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#shop" class="nav-link">Shop</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Sohaib Hasan</h1>
+                <h2>Mathematics & Statistics Expert | Data Analyst</h2>
+                <p>Transforming complex data into actionable insights with 8+ years of teaching experience</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/images/profile_image.jpeg" alt="Sohaib Hasan">
+                </div>
+                <div class="about-text">
+                    <h3>My Journey</h3>
+                    <p>I am a dedicated Mathematics & Statistics Expert and Data Analyst with an M.Phil in Mathematics specializing in Cryptography. With 8 years of experience teaching undergraduate students, I've developed a unique ability to explain complex concepts in simple terms.</p>
+                    <p>My expertise spans Python, SQL, Power BI, and Excel, allowing me to transform raw data into meaningful insights that drive decision-making.</p>
+                    <div class="skills">
+                        <div class="skill-category">
+                            <h4>Technical Skills</h4>
+                            <div class="skill-items">
+                                <span>Python</span>
+                                <span>SQL</span>
+                                <span>Power BI</span>
+                                <span>Excel</span>
+                                <span>Data Visualization</span>
+                                <span>Statistical Analysis</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Mathematics</h4>
+                            <div class="skill-items">
+                                <span>Cryptography</span>
+                                <span>Statistical Modeling</span>
+                                <span>Probability Theory</span>
+                                <span>Linear Algebra</span>
+                                <span>Calculus</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume-download">
+                        <a href="#" class="btn btn-primary">Download Resume</a>
+                        <a href="#" class="btn btn-secondary">Academic CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Project cards will go here -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project1.jpg" alt="Data Analysis Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>Data Analysis Project</h3>
+                        <p>Description of the project and the technologies used.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Sohaib-Hasan" target="_blank" class="btn btn-sm">View Code</a>
+                            <a href="#" class="btn btn-sm btn-secondary">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- More project cards -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>Feel free to reach out for consulting, tutoring, or project inquiries.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>sohaibhassan199@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Pakistan</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Sohaib-Hasan" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sohaibhassan05/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/sohaib.hassan.4314" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/_sohaib05/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Sohaib Hasan</h3>
+                    <p>Mathematics & Statistics Expert | Data Analyst</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Me</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/Sohaib-Hasan" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sohaibhassan05/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/sohaib.hassan.4314" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/_sohaib05/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sohaib Hasan. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+    <script src="form-handler.js"></script>
+    <script src="seo-optimization.js"></script>
+    <script src="adsense-integration.js"></script>
+</body>
 </html>
+
